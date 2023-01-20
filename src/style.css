@@ -4,8 +4,8 @@ h1 {
 .container {
   border-radius: 25px;
   width: 600px;
-  height: 280px;
-  padding: 50px;
+  height: 300px;
+  padding: 20px;
   border: 1px solid rgb(17, 17, 17);
   box-sizing: border-box;
 }
