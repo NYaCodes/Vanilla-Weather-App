@@ -31,3 +31,9 @@ h1 {
   font-size: 27px;
   margin-bottom: 0;
 }
+.overview {
+  margin-bottom: 20px;
+}
+.weather-temperature img {
+  margin-right: 10px;
+}
