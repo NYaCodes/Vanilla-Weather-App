@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,12 +17,12 @@
   <body>
     <div class="container">
       <div class="overview">
-        <h1>New York</h1>
+        <h1 id="city"></h1>
         <ul>
           <li>Friday 05:00</li>
         </ul>
         <ul>
-          <li>clear</li>
+          <li id="description"></li>
         </ul>
       </div>
       <div class="row">
@@ -33,7 +34,7 @@
               class="float-left"
             />
             <div class="float-left">
-              <strong>12</strong>
+              <strong id="temperature"></strong>
               <span class="units">°C | <a href="#"> °F</a> </span>
             </div>
           </div>
