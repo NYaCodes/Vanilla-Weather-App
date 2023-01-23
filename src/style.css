@@ -25,6 +25,8 @@ li {
   padding: 0;
   list-style: none;
   color: #70757a;
+}
+li::first-letter {
   text-transform: capitalize;
 }
 h1 {
