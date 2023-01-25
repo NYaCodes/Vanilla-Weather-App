@@ -33,7 +33,7 @@ function displayTemperature(response) {
 
   celsiusTemperature = response.data.main.temp;
 
-  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
   cityElement.innerHTML = response.data.name;
   weatherDescription.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
@@ -77,7 +77,7 @@ form.addEventListener("submit", handleSubmit);
 let fahreheintLink = document.querySelector("#fahrenheit-link");
 fahreheintLink.addEventListener("click", displayFahrenheitTemp);
 
-let celsiusLink = document.querySelector("celsius-link");
+let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemp);
 
 search("New York");
